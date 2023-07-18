@@ -1,0 +1,13 @@
+resource "instance-type-layout" "bafe06ca-fbf2-439d-9fea-a663baaaf715" {
+  code = "bafe06ca-fbf2-439d-9fea-a663baaaf715"
+  name = "test layout"
+  uuid = "b96a912a-e58e-42bd-80f0-9eeee909d79f"
+  instanceType = { code = "aws" }
+  instanceVersion = "tl"
+  memoryRequirement = 0
+  provisionType = { code = "amazon" }
+  workloads = [
+    { code = "amazonlinux-amazon-2" },
+    { code = "5572adef-83f1-4c27-9502-0fcf7b6e73ec" }
+  ]
+}

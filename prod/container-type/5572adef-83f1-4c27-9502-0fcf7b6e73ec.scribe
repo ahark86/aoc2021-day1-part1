@@ -1,0 +1,17 @@
+resource "container-type" "5572adef-83f1-4c27-9502-0fcf7b6e73ec" {
+  code = "5572adef-83f1-4c27-9502-0fcf7b6e73ec"
+  name = "my node"
+  uuid = "e0a74d3e-d92d-45bb-887d-1ebd733808c8"
+  containerVersion = "1"
+  entryPoint = ""
+  logTypeCode = "amazon"
+  provisionType = { code = "amazon" }
+  repositoryImage = ""
+  serverType = "vm"
+  shortName = "mn"
+  showServerLogs = true
+  statTypeCode = "amazon"
+  virtualImage = {
+    code = "amazon.ec2.image.morpheus.amazonlinux.2-v1.amazonlinux.2.amd64"
+  }
+}

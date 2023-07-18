@@ -1,0 +1,11 @@
+resource "instance-type" "aws" {
+  code = "aws"
+  name = "Example AWS Instance"
+  uuid = "203256a9-b296-4ebf-b96b-a6e0016ac2ca"
+  category = "web"
+  deploymentService = ""
+  environmentPrefix = "aws-test"
+  labels = [ "prod" ]
+  layouts = [ { code = "bafe06ca-fbf2-439d-9fea-a663baaaf715" } ]
+  optionTypes = [ { code = "tr" } ]
+}

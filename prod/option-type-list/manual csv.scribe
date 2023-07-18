@@ -1,0 +1,10 @@
+resource "option-type-list" "manual csv" {
+  name = "manual csv"
+  uuid = "8468a680-307f-4b8e-bfa8-08316dbca9c0"
+  initialDataset = <<EOF
+Test,1
+Testing,2
+EOF
+  type = "manual"
+  visibility = "public"
+}

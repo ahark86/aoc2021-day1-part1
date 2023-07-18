@@ -1,0 +1,12 @@
+resource "container-type-port" "amazonlinux.22" {
+  code = "amazonlinux.22"
+  name = "SSH"
+  export = true
+  exportName = "SSH"
+  externalPort = 22
+  internalPort = 22
+  primaryPort = true
+  shortName = "ssh"
+  sortOrder = 1
+  visible = true
+}

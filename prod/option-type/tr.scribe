@@ -1,0 +1,13 @@
+resource "option-type" "tr" {
+  code = "tr"
+  name = "Test Radio"
+  uuid = "2532f575-32aa-411f-ac23-15c54c2f7beb"
+  fieldContext = "config.customOptions"
+  fieldGetName = "tr"
+  fieldLabel = "Radio List"
+  fieldName = "tr"
+  fieldSetName = "tr"
+  optionList = { name = "manual csv" }
+  optionSource = "list"
+  type = "radio"
+}
