@@ -1,0 +1,9 @@
+resource "file-content" "54ba1480-8dc3-4165-af5e-0c9e5836647c" {
+  uuid = "54ba1480-8dc3-4165-af5e-0c9e5836647c"
+  content = <<EOF
+echo "Variable printed on next line"
+echo "<%=customOptions.name%>"
+EOF
+  dateCreated = "2022-01-18T19:37:25.000Z"
+  lastUpdated = "2022-01-18T19:37:25.000Z"
+}

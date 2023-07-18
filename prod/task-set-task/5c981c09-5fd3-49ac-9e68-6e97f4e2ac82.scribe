@@ -1,0 +1,7 @@
+resource "task-set-task" "5c981c09-5fd3-49ac-9e68-6e97f4e2ac82" {
+  uuid = "5c981c09-5fd3-49ac-9e68-6e97f4e2ac82"
+  task = { name = "Price Phase Task" }
+  taskOrder = 2
+  taskPhase = "operation"
+  taskSet = { name = "Test Operational Workflow" }
+}

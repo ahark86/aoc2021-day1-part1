@@ -1,0 +1,6 @@
+resource "task-set-task" "43d7a6cc-e6ef-49d6-9667-c43268886813" {
+  uuid = "43d7a6cc-e6ef-49d6-9667-c43268886813"
+  task = { name = "Email test" }
+  taskPhase = "operation"
+  taskSet = { name = "Test Operational Workflow" }
+}

@@ -1,0 +1,16 @@
+resource "task" "Price Phase Task" {
+  name = "Price Phase Task"
+  uuid = "77790589-fce9-41cb-8224-6ec2cb71f4c8"
+  dateCreated = "2022-10-26T15:34:01.000Z"
+  executeTarget = "local"
+  lastUpdated = "2022-10-26T15:57:36.000Z"
+  options = [
+    {
+      content = { uuid = "68043802-43a4-4564-81a1-db349314097d" }
+      optionType = { code = "groovyScript" }
+      task = { name = "Price Phase Task" }
+    }
+  ]
+  resultType = "value"
+  taskType = { code = "groovyTask" }
+}

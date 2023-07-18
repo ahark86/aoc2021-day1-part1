@@ -1,0 +1,35 @@
+resource "file-content" "68043802-43a4-4564-81a1-db349314097d" {
+  uuid = "68043802-43a4-4564-81a1-db349314097d"
+  content = <<EOF
+print spec
+
+def rtn = [
+  priceData: [
+    [
+      incurCharges: 'always',
+      currency: 'USD',
+      unit: 'hour',
+      cost: 4.0,
+      price: 4.0
+    ],
+    [
+      incurCharges: 'running',
+      currency: 'USD',
+      unit: 'hour',
+      cost: 3.0,
+      price: 3.0
+    ],
+    [
+      incurCharges: 'stopped',
+      currency: 'USD',
+      unit: 'hour',
+      cost: 1.0,
+      price: 1.0
+    ]
+  ]
+]
+return rtn
+EOF
+  dateCreated = "2022-10-26T15:34:01.000Z"
+  lastUpdated = "2022-10-26T15:57:36.000Z"
+}

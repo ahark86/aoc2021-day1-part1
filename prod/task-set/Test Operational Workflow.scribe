@@ -1,0 +1,13 @@
+resource "task-set" "Test Operational Workflow" {
+  name = "Test Operational Workflow"
+  uuid = "5c071c28-11b6-4bc3-86ce-d7621e647f10"
+  dateCreated = "2023-07-18T01:54:05.000Z"
+  labels = [ "prod" ]
+  lastUpdated = "2023-07-18T02:30:09.000Z"
+  taskSetTasks = [
+    { uuid = "25cd86cc-3345-4380-af1f-a5a1bec04a85" },
+    { uuid = "43d7a6cc-e6ef-49d6-9667-c43268886813" },
+    { uuid = "5c981c09-5fd3-49ac-9e68-6e97f4e2ac82" }
+  ]
+  taskSetType = "operation"
+}

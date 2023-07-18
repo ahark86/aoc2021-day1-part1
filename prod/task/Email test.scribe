@@ -1,0 +1,31 @@
+resource "task" "Email test" {
+  name = "Email test"
+  uuid = "80e62ec5-5c8c-4f08-bd2e-8c7c9c04ea84"
+  dateCreated = "2021-10-28T20:01:36.000Z"
+  executeTarget = "local"
+  labels = [ "prod" ]
+  lastUpdated = "2023-07-17T20:57:23.000Z"
+  options = [
+    {
+      optionType = { code = "emailSubject" }
+      task = { name = "Email test" }
+      value = "Subject Line"
+    },
+    {
+      optionType = { code = "emailAddress" }
+      task = { name = "Email test" }
+      value = "aharker@morpheusdata.com"
+    },
+    {
+      optionType = { code = "emailSkipTemplate" }
+      task = { name = "Email test" }
+      value = "on"
+    },
+    {
+      content = { uuid = "d96b3462-0ee0-48e5-a354-eb34e447d043" }
+      optionType = { code = "emailBody" }
+      task = { name = "Email test" }
+    }
+  ]
+  taskType = { code = "email" }
+}

@@ -1,0 +1,10 @@
+resource "file-content" "d96b3462-0ee0-48e5-a354-eb34e447d043" {
+  uuid = "d96b3462-0ee0-48e5-a354-eb34e447d043"
+  content = <<EOF
+One line of static text:
+
+<%=customOptions.notes.replaceAll(System.getProperty("line.separator"),"<br>")%>
+EOF
+  dateCreated = "2021-10-28T20:01:36.000Z"
+  lastUpdated = "2023-05-31T16:01:14.000Z"
+}

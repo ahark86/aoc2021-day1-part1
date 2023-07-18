@@ -1,0 +1,7 @@
+resource "task-set-task" "25cd86cc-3345-4380-af1f-a5a1bec04a85" {
+  uuid = "25cd86cc-3345-4380-af1f-a5a1bec04a85"
+  task = { name = "Test Bash" }
+  taskOrder = 1
+  taskPhase = "operation"
+  taskSet = { name = "Test Operational Workflow" }
+}
