@@ -1,0 +1,16 @@
+resource "task" "python" {
+  name = "python"
+  uuid = "bb665b3f-f314-4251-a189-b0f61aef3813"
+  dateCreated = "2022-10-11T18:11:39.000Z"
+  executeTarget = "local"
+  labels = [ "prod", "python" ]
+  lastUpdated = "2023-07-17T20:57:33.000Z"
+  options = [
+    {
+      content = { uuid = "20429be8-6c53-42da-aa61-ab4dd3303ed4" }
+      optionType = { code = "pythonScript" }
+      task = { name = "python" }
+    }
+  ]
+  taskType = { code = "jythonTask" }
+}

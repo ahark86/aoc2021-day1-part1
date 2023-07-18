@@ -1,0 +1,5 @@
+resource "file-content" "20429be8-6c53-42da-aa61-ab4dd3303ed4" {
+  uuid = "20429be8-6c53-42da-aa61-ab4dd3303ed4"
+  dateCreated = "2022-10-11T18:11:39.000Z"
+  lastUpdated = "2023-07-17T20:57:33.000Z"
+}
