@@ -1,0 +1,16 @@
+resource "task" "Python Task (Git-sourced)" {
+  name = "Python Task (Git-sourced)"
+  uuid = "54847400-acc1-4203-b7b5-63a9feabf677"
+  dateCreated = "2023-07-17T21:02:25.000Z"
+  executeTarget = "local"
+  labels = [ "prod" ]
+  lastUpdated = "2023-07-17T21:02:25.000Z"
+  options = [
+    {
+      content = { uuid = "a1f5c6ba-791c-49e1-975c-0f5c4e71e1e3" }
+      optionType = { code = "pythonScript" }
+      task = { name = "Python Task (Git-sourced)" }
+    }
+  ]
+  taskType = { code = "jythonTask" }
+}

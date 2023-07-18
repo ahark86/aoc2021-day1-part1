@@ -1,0 +1,16 @@
+resource "code-repository" "sports-trivia-twitterbot" {
+  name = "sports-trivia-twitterbot"
+  uuid = "fdf75ec8-871d-4e48-ad9f-281c12e08bc2"
+  codeLanguage = "Python"
+  dateCreated = "2023-05-15T16:05:11.000Z"
+  defaultBranch = "master"
+  displayName = "ahark86/sports-trivia-twitterbot"
+  externalId = "437448299"
+  integration = { name = "ahark86 Github" }
+  lastUpdated = "2023-05-15T16:05:11.000Z"
+  orgId = "15126018"
+  orgName = "ahark86"
+  privateRepo = false
+  repoSize = 2312
+  serviceUrl = "https://github.com/ahark86/sports-trivia-twitterbot"
+}

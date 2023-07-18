@@ -1,0 +1,9 @@
+resource "file-content" "a1f5c6ba-791c-49e1-975c-0f5c4e71e1e3" {
+  uuid = "a1f5c6ba-791c-49e1-975c-0f5c4e71e1e3"
+  contentPath = "main.py"
+  contentRef = ""
+  dateCreated = "2023-07-17T21:02:25.000Z"
+  lastUpdated = "2023-07-17T21:02:25.000Z"
+  repository = { name = "sports-trivia-twitterbot" }
+  sourceType = "repository"
+}

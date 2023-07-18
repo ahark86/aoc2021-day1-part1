@@ -1,0 +1,8 @@
+resource "account-integration" "ahark86 Github" {
+  name = "ahark86 Github"
+  uuid = "d9bb683b-92a1-464a-a6c6-9097117a4a64"
+  category = "cm-server"
+  integrationType = { code = "github" }
+  serviceFlag = true
+  type = "github"
+}
